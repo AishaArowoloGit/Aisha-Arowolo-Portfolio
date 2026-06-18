@@ -23,8 +23,7 @@ function About() {
             I am Dr Aisha Olushola Arowolo, an educator, data analyst, and frontend developer who enjoys creating meaningful digital experiences 
             and making complex ideas easier to understand. My journey blends academic depth with hands‑on creativity. Over the years, 
             I’ve developed a strong passion for using technology to support learning, research, and problem‑solving in practical, 
-            impactful ways.  My approach to work is simple: clarity, purpose, and user experience. Whether I’m coding a layout, preparing a dataset, or guiding students through a concept, I focus on making information easy to navigate and meaningful to the people who use it.
-            
+            impactful ways.  
           </p>
 
           <p className="text-base md:text-md lg:text-lg leading-relaxed text-gray-300 mb-4">
