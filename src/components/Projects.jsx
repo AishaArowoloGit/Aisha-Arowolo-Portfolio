@@ -83,7 +83,7 @@ function Projects() {
           <img
             src="/Images/Portfolio.png"
             alt="Portfolio Project"
-            className="rounded-2xl w-full shadow-lg"
+            className="rounded-2xl w-full max-h-90 shadow-lg"
           />
         </div>
 
@@ -118,7 +118,7 @@ function Projects() {
 
           <div className="flex gap-4 flex-wrap">
             <a
-              href="https://aisha-portfolio-gamma.vercel.app/"
+              href="https://aisha-arowolo-portfolio.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-green-700 text-white rounded-md hover:bg-green-800"
@@ -127,7 +127,7 @@ function Projects() {
             </a>
 
             <a
-              href="https://github.com/AishaArowoloGit/Aisha-Portfolio"
+              href="https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border border-green-700 text-green-700 rounded-md hover:bg-green-50"
@@ -143,9 +143,9 @@ function Projects() {
         {/* IMAGE */}
         <div className="bg-neutral-900 rounded-3xl p-6">
           <img
-            src="/images/powerbi-dashboard.jpg"
+            src="Images/PowerBI_Dashboard.png"
             alt="Power BI Dashboard"
-            className="rounded-2xl w-full shadow-lg"
+            className="rounded-2xl w-full max-h-90 shadow-lg"
           />
         </div>
 
@@ -156,8 +156,8 @@ function Projects() {
           </h3>
 
           <p className="text-gray-300 mb-6 leading-relaxed">
-            An interactive agricultural data visualization dashboard built using
-            Power BI. Includes slicers, KPIs, trend analysis, and clean visual
+            An interactive data visualization dashboard built using
+            Power BI including slicers, KPIs, trend analysis, and clean visual
             storytelling for data insights.
           </p>
 
@@ -168,7 +168,7 @@ function Projects() {
           <div className="space-y-3 mb-6">
             <div className="flex justify-between border-b border-gray-700 pb-2">
               <span className="text-gray-400">Year</span>
-              <span className="text-gray-200">2024</span>
+              <span className="text-gray-200">2026</span>
             </div>
 
             <div className="flex justify-between border-b border-gray-700 pb-2">
@@ -178,7 +178,7 @@ function Projects() {
           </div>
 
           <a
-            href="https://your-powerbi-dashboard-link.com"
+            href="https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio/raw/master/data-analytics-projects/HTT DATA ANALYTICS STARTER GROUP 2 CAPSTONE PROJECT_Visualization_Part 1.pbix"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-green-700 text-white rounded-md hover:bg-green-800"

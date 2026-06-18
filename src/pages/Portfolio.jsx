@@ -11,10 +11,10 @@ function Portfolio() {
     {
       title: "Power BI Dashboard",
       description:
-        "Interactive dashboard visualizing resource economics data with dynamic filters and KPIs.",
+        "An interactive data visualization dashboard built using Power BI with dynamic filters, slicers, KPIs, and clean visual storytelling for data insights.",
       tech: ["Power BI", "Data Modeling", "DAX"],
-      link: "YOUR_POWERBI_GITHUB_LINK",
-      image: "/images/powerbi-dashboard.jpg",
+      link: "https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio/raw/master/data-analytics-projects/HTT DATA ANALYTICS STARTER GROUP 2 CAPSTONE PROJECT_Visualization_Part 1.pbix",
+      image: "Images/PowerBI_Dashboard.png",
     },
     {
       title: "SQL Query Automation",
@@ -25,31 +25,31 @@ function Portfolio() {
       image: "/images/sql-automation.jpg",
     },
     {
-      title: "React Frontend App",
+      title: "Figma UI Replication (HTT Project)",
       description:
-        "Responsive web app showcasing academic and data projects, built with React and Tailwind CSS.",
-      tech: ["ReactJS", "TailwindCSS", "JavaScript"],
-      live: "YOUR_REACT_APP_LIVE_LINK",
-      code: "YOUR_REACT_APP_GITHUB_LINK",
-      image: "/images/react-app.jpg",
+        "A pixel‑accurate replication of a Figma design, developed using semantic HTML and TailwindCSS. The layout, spacing, and typography closely match the original Figma file, with a fully responsive design that adapts smoothly across mobile, tablet, and desktop screens.",
+      tech: ["HTML", "TailwindCSS", "Responsive Design"],
+      live: "https://responsive-design-assignment.vercel.app/",
+      code: "https://github.com/AishaArowoloGit/Responsive_Design_Assignment",
+      image: "public/Images/Figma_UI_Replication2.png",
     },
     {
       title: "Figma UI Replication (HTT Mid‑Cohort Project)",
       description:
-        "A pixel‑accurate recreation of a Figma design using semantic HTML and TailwindCSS. Fully responsive and deployed on Vercel.",
+        "A pixel‑accurate recreation of a Figma design using semantic HTML and TailwindCSS. Fully responsive mobile, tablet, and desktop screens with the layout, spacing, and typography closely matching the original Figma file.",
       tech: ["HTML", "TailwindCSS", "Responsive Design"],
       live: "https://responsive-design-mid-cohort.vercel.app",
       code: "https://github.com/AishaArowoloGit/Responsive_Design_MidCohort",
-      image: "/images/figma-project.jpg",
+      image: "Images/Figma_UI_Replication.png",
     },
     {
       title: "Personal Portfolio (HTT Capstone Project)",
       description:
         "A modern, responsive personal portfolio website built with React and TailwindCSS, featuring reusable components and clean UI.",
       tech: ["ReactJS", "TailwindCSS", "Vercel Deployment"],
-      live: "YOUR_PORTFOLIO_LIVE_LINK",
-      code: "YOUR_PORTFOLIO_GITHUB_LINK",
-      image: "/images/portfolio-project.jpg",
+      live: "https://aisha-arowolo-portfolio.vercel.app/",
+      code: "https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio",
+      image: "/Images/Portfolio.png",
     },
   ];
 

@@ -1,3 +1,9 @@
+const toggleDropdown = () => {
+  const element = document.getElementById("coursesDropdown");
+  element.classList.toggle("hidden");
+};
+
+
 function Academic() {
   return (
     <section
@@ -8,10 +14,12 @@ function Academic() {
     ACADEMIC AND RESEARCH WORK
   </h2>
 
-  <p className="text-base md:text-lg lg:text-xl text-gray-300 mb-10 leading-relaxed ">
-    As a Senior Lecturer in Agricultural Economics and Farm Management at FUNAAB,
-    my research focuses on environmental and resource economics — exploring sustainable
-    agricultural practices, resource valuation, and climate adaptation strategies.
+  <p className="text-base md:text-md lg:text-lg text-gray-300 mb-10 leading-relaxed ">
+    As an Associate Professor of Environmental and Welfare Economics at FUNAAB,
+    my research centers on the sustainable management of natural resources, 
+    the valuation of environmental goods and services, and the economic analysis of policies 
+    that promote social welfare. I explore the interactions between economic activities and environmental systems, 
+    focusing on optimizing resource allocation to balance economic growth with ecological sustainability.
   </p>
 
   {/* 3‑Column Academic Cards */}
@@ -25,16 +33,34 @@ function Academic() {
 
       <ul className="text-gray-300 space-y-1 text-sm md:text-base">
         <li>Environmental & Resource Economics</li>
-        <li>Production Economics</li>
-        <li>Farm Management</li>
-        <li>Agricultural Policy & Development</li>
-        <li>Quantitative Methods</li>
+        <li>Economics of Renewable Natural Resources</li>
+        <li>Econometric Methods</li>
+        <li>Statistical Theory and Analysis</li>
       </ul>
 
-      <a href="/courses" className="inline-flex items-center mt-4 text-green-400 hover:text-green-500 transition">
-        Read More <span className="ml-1">→</span>
-      </a>
+      {/* DROPDOWN */}
+      <div className="mt-4">
+        <button
+          onClick={toggleDropdown}
+          className="inline-flex items-center text-green-400 hover:text-green-500 transition"
+        >
+          Read More <span className="ml-1">→</span>
+        </button>
+
+        <div
+          id="coursesDropdown"
+          className="hidden mt-3 text-gray-300 transition-all duration-300 ease-in-out"
+        >
+          <ul className="text-gray-300 space-y-1 text-sm md:text-base">
+            <li>Computer Applications in Agriculture</li>
+            <li>Agricultural Production Economics</li>
+            <li>Principles of Agricultural Economics</li>
+            <li>Principles of Economics</li>
+          </ul>
+        </div>
+      </div>
     </div>
+
 
     {/* RESEARCH INTERESTS */}
     <div className="bg-neutral-900 border border-gray-700 p-6 rounded-lg hover:border-green-500 transition">

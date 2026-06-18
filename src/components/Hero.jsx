@@ -5,11 +5,11 @@ function Hero() {
     <section id="home" className="bg-black flex flex-col w-full md:flex-row items-center gap-10 md:gap-28 px-4 md:px-12 py-10 scroll-mt-24 border-b border-gray-700">
       {/* Hero Text */}
       <div className="text-center md:text-left">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12 text-white">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12 text-white leading-tight">
           Hi, I am <br /> AISHA AROWOLO
         </h1>
 
-        <p className="text-base md:text-lg lg:text-xl mb-12 text-gray-300 max-w-sm">
+        <p className="text-base md:text-md lg:text-lg mb-12 text-gray-300 max-w-sm">
           An Associate Professor of Environmental and Resource Economics passionate about crafting intelligent solutions through research, analytics, and modern web development.
         </p>
 
