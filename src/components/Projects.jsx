@@ -14,10 +14,6 @@ function Projects() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-20">
         {/* IMAGE */}
         <div className="bg-neutral-900 rounded-3xl p-6 relative overflow-hidden">
-          <span className="absolute top-3 left-3 bg-green-700 text-white text-xs px-3 py-1 rounded-full">
-            HTT Mid-Cohort Project
-          </span>
-
           <img
             src="/Images/Figma_UI_Replication.png"
             alt="Figma UI Replication"

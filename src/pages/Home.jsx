@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import Certifications from "../components/Certifications";
 import Contact from "../components/Contact";
 
+
 function Home() {
   return (
     <div className="pt-20">

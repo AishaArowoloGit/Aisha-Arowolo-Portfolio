@@ -58,7 +58,7 @@ function Certifications() {
                 >
                 <span>View Certificate</span>
                 <TbExternalLink className="w-5 h-5" />
-             </a>
+              </a>
 
             </div>
           ))}

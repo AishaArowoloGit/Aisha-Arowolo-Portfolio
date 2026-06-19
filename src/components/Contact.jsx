@@ -53,8 +53,8 @@ function Contact() {
 
         {/* Lets Connect Text and Social Links */}
         <div className="md:col-span-1 w-full">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-white">
-            LET'S CONNECT
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-white leading-tight">
+            LET'S WORK TOGETHER
           </h2>
 
           <p className="text-base md:text-md lg:text-lg text-gray-300 leading-relaxed">

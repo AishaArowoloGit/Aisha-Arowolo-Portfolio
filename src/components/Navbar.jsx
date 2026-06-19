@@ -38,7 +38,7 @@ function Navbar() {
       : "text-white hover:text-green-400";
 
   return (
-    <nav className="bg-black text-white shadow-md fixed w-full top-0 left-0 z-50 border-b border-gray-700">
+    <nav className="bg-black text-white shadow-md fixed w-full top-0 left-0 z-50 border-b border-gray-700 px-6">
       <div className="w-full flex justify-between items-center px-6 py-4">
         <h3 className="text-xl font-bold text-white">Aisha Arowolo</h3>
 
@@ -48,6 +48,12 @@ function Navbar() {
           <Link to="/#home" className={linkClass("home")}>
             Home
           </Link>
+
+          <Link to="/#about" className={linkClass("about")}>
+            About
+          </Link>
+
+          
 
           {/* PORTFOLIO */}
           <Link
