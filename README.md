@@ -1,11 +1,26 @@
 
-# 🌐 Personal Portfolio Website - Aisha Arowolo
+# 🌐 **Personal Portfolio Website - Aisha Arowolo**
 
-A modern and fully responsive personal portfolio website built to showcase my work as an **academic researcher**, **data analyst**, and **frontend web developer**. 
+Welcome to my personal portfolio, a curated space where I showcase my my work as an **academic researcher**, **a data analyst**, and **a frontend web developer**.  
 
-This project highlights my skills, projects, publications, and professional journey in a clean, elegant interface. 
+This website reflects my passion for building clean, responsive, and user‑focused digital experiences while demonstrating my growth, technical skills, and commitment to continuous learning.
 
-This project reflects my focus on clean UI structure, accessibility, responsiveness and modern web development best practices.
+Whether you're a recruiter, collaborator, or fellow developer, this portfolio gives you a clear view of my capabilities, projects, certifications, and the value I bring to every team I join.
+
+---
+
+## 🎯 **Purpose of this Project**
+This portfolio was built to:
+
+showcase my skills, projects, publications, and professional journey in a clean, elegant interface. 
+
+reflects my focus on clean UI structure, accessibility, responsiveness and modern web development best practices.
+
+Highlight my academic background and professional certifications
+
+Showcase clean code structure and component‑based architecture
+
+Provide an easy way for recruiters and collaborators to reach me
 
 ---
 
@@ -36,11 +51,12 @@ https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio
 - Fully responsive modern UI (Mobile, Tablet & Desktop)  
 - Hero section with introduction  
 - About Me section (academia + data + frontend)
+- Certifications Section with downloadable PDFs
 - Featured Projects section with:
   - Live demo links
   - GitHub repository links 
 - Dynamic Projects section powered by **GitHub API**  
-- Contact form integrated with **Formspree**  
+- Working Contact form integrated with **Formspree**  
 - Smooth scrolling navigation
 -  Social media links (GitHub, LinkedIn, X, Facebook, WhatsApp) 
 - Fast build setup using **Vite**  
@@ -182,7 +198,8 @@ Every push to the `main` branch triggers an automatic redeployment.
 If you'd like to reach out:
 
 - **Email:** arowoshola@gmail.com; arowoloao@funaab.edu.ng 
-- **Portfolio:** [https://aisha-arowolo-portfolio.vercel.app](https://aisha-arowolo-portfolio.vercel.app)  
+- **Portfolio:** (https://aisha-arowolo-portfolio.vercel.app)
+- **Linkedin:** (https://www.linkedin.com/in/aisha-arowolo-316752221/)  
 
 ---
 
