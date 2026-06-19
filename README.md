@@ -12,10 +12,10 @@ This project reflects my focus on clean UI structure, accessibility, responsiven
 ## 🔗 **Live Website:** 
 
 🔗 **Live Demo**: 
-(https://aisha-arowolo-portfolio.vercel.app) 
+https://aisha-arowolo-portfolio.vercel.app 
 
 🔗 **GitHub Repository:**
-(https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio)
+https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio
 
 ---
 
