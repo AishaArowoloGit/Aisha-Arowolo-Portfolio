@@ -198,8 +198,8 @@ Every push to the `main` branch triggers an automatic redeployment.
 If you'd like to reach out:
 
 - **Email:** arowoshola@gmail.com; arowoloao@funaab.edu.ng 
-- **Portfolio:** (https://aisha-arowolo-portfolio.vercel.app)
-- **Linkedin:** (https://www.linkedin.com/in/aisha-arowolo-316752221/)  
+- **Portfolio:** https://aisha-arowolo-portfolio.vercel.app
+- **Linkedin:** https://www.linkedin.com/in/aisha-arowolo-316752221/  
 
 ---
 
