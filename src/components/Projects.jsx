@@ -5,7 +5,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 px-8 md:px-12 lg:px-16 border-b border-gray-700"
+      className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 px-8 md:px-12 lg:px-24 border-b border-gray-700"
     >
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-12 text-white">
         FEATURED PROJECTS

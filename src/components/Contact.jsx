@@ -34,7 +34,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 px-8 md:px-12 lg:px-16 w-full overflow-x-hidden ">
+    <section id="contact" className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 px-8 md:px-12 lg:px-24 w-full overflow-x-hidden ">
 
       {/* Popup Modal */}
       {popup && (

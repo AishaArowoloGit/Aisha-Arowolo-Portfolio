@@ -36,7 +36,7 @@ function Certifications() {
   ];
 
   return (
-    <section id="certifications" className="pt-10 pb-20 px-8 md:px-12 lg:px-16 bg-black text-white border-b border-gray-700 ">
+    <section id="certifications" className="pt-10 pb-20 px-8 md:px-12 lg:px-24 bg-black text-white border-b border-gray-700 ">
       <div >
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-8">CERTIFICATIONS</h2>
 

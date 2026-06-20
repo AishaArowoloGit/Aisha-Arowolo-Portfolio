@@ -2,7 +2,7 @@ import MyPhotoImg from "../assets/MyPhoto.png";
 
 function Hero() {
   return (
-    <section id="home" className="bg-black flex flex-col w-full md:flex-row items-center gap-14 md:gap-20 lg:gap-28 px-8 md:px-12 lg:px-16 py-20 scroll-mt-24 border-b border-gray-700">
+    <section id="home" className="bg-black flex flex-col w-full md:flex-row items-center gap-14 md:gap-20 lg:gap-28 px-8 md:px-12 lg:px-24 py-20 scroll-mt-24 border-b border-gray-700">
       {/* Hero Text */}
       <div>
         <h1 className="text-3xl md:text-[35px] lg:text-5xl font-bold mb-12 text-white leading-tight">

@@ -44,13 +44,14 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          {/* HOME */}
+
+          {/* Home */}
           <Link to="/#home" className={linkClass("home")}>
             Home
           </Link>
 
         
-          {/* ABOUT */}
+          {/* About */}
           <Link
             to="/about-full"
             className={
@@ -62,7 +63,7 @@ function Navbar() {
             About
           </Link>
 
-          {/* PORTFOLIO */}
+          {/* Portfolio */}
           <Link
             to="/portfolio"
             className={
@@ -74,7 +75,7 @@ function Navbar() {
             Portfolio
           </Link>
 
-          {/* CONTACT */}
+          {/* Contact */}
           <Link to="/#contact" className={linkClass("contact")}>
             Contact
           </Link>
@@ -92,7 +93,8 @@ function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-black shadow-md p-6 space-x-4 text-center text-white">
-          {/* HOME */}
+
+          {/* Home */}
           <Link
             onClick={() => setOpen(false)}
             to="/#home"
@@ -101,7 +103,7 @@ function Navbar() {
             Home
           </Link>
 
-          {/* ABOUT */}
+          {/* About */}
           <Link
             onClick={() => setOpen(false)}
             to="/about-full"
@@ -114,7 +116,7 @@ function Navbar() {
             About
           </Link>
 
-          {/* PORTFOLIO */}
+          {/* Portfolio */}
           <Link
             onClick={() => setOpen(false)}
             to="/portfolio"
@@ -127,7 +129,7 @@ function Navbar() {
             Portfolio
           </Link>
 
-          {/* CONTACT */}
+          {/* Contact */}
           <Link
             onClick={() => setOpen(false)}
             to="/#contact"
