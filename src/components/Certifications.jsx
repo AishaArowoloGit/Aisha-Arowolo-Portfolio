@@ -36,8 +36,8 @@ function Certifications() {
   ];
 
   return (
-    <section id="certifications" className="pt-10 pb-20 bg-black text-white border-b border-gray-700 ">
-      <div className=" mx-auto px-8">
+    <section id="certifications" className="pt-10 pb-20 px-8 md:px-12 lg:px-16 bg-black text-white border-b border-gray-700 ">
+      <div >
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-8">CERTIFICATIONS</h2>
 
         {/* 1 column mobile → 3 columns tablet → 4 columns desktop */}

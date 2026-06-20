@@ -9,7 +9,7 @@ function Academic() {
   return (
     <section
   id="academic"
-  className="scroll-mt-24 bg-black text-white pt-10 pb-20 px-8 border-b border-gray-700"
+  className="scroll-mt-24 bg-black text-white pt-10 pb-20 px-8 md:px-12 lg:px-16 border-b border-gray-700"
 >
   <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6">
     ACADEMIC AND RESEARCH WORK

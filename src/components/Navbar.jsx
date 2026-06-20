@@ -49,6 +49,19 @@ function Navbar() {
             Home
           </Link>
 
+        
+          {/* ABOUT */}
+          <Link
+            to="/about-full"
+            className={
+              location.pathname === "/about-full"
+                ? "text-green-400 font-semibold"
+                : "text-white hover:text-green-400"
+            }
+          >
+            About
+          </Link>
+
           {/* PORTFOLIO */}
           <Link
             to="/portfolio"
@@ -67,7 +80,6 @@ function Navbar() {
           </Link>
         </div>
 
-
         {/* Mobile Hamburger */}
         <div
           className="md:hidden text-2xl text-green-400"
@@ -80,6 +92,7 @@ function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-black shadow-md p-6 space-x-4 text-center text-white">
+          {/* HOME */}
           <Link
             onClick={() => setOpen(false)}
             to="/#home"
@@ -88,6 +101,20 @@ function Navbar() {
             Home
           </Link>
 
+          {/* ABOUT */}
+          <Link
+            onClick={() => setOpen(false)}
+            to="/about-full"
+            className={
+              location.pathname === "/about-full"
+                ? "text-green-400 font-semibold"
+                : "text-white hover:text-green-400"
+            }
+          >
+            About
+          </Link>
+
+          {/* PORTFOLIO */}
           <Link
             onClick={() => setOpen(false)}
             to="/portfolio"
@@ -100,6 +127,7 @@ function Navbar() {
             Portfolio
           </Link>
 
+          {/* CONTACT */}
           <Link
             onClick={() => setOpen(false)}
             to="/#contact"
@@ -114,3 +142,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+

@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
+import { TbExternalLink } from "react-icons/tb";
 
 function Projects() {
   return (
     <section
       id="projects"
-      className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 border-b border-gray-700"
+      className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 px-8 md:px-12 lg:px-16 border-b border-gray-700"
     >
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-12 text-white">
         FEATURED PROJECTS
       </h2>
 
       {/* FEATURED PROJECT 1 — FIGMA UI REPLICATION */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
         {/* IMAGE */}
         <div className="bg-neutral-900 rounded-3xl p-6 relative overflow-hidden">
           <img
@@ -73,7 +74,7 @@ function Projects() {
       </div>
 
       {/* FEATURED PROJECT 2 — PERSONAL PORTFOLIO */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
         {/* IMAGE */}
         <div className="bg-neutral-900 rounded-3xl p-6">
           <img
@@ -182,17 +183,20 @@ function Projects() {
             View Project
           </a>
         </div>
+        
       </div>
 
       {/* VIEW FULL PORTFOLIO */}
-      <div className="mt-8 text-center">
+      <div className="mt-10 text-center">
         <Link
           to="/portfolio"
-          className="text-green-400 font-semibold hover:underline"
+          className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 hover:underline transition"
         >
-          View Full Portfolio →
+          <span className="text-xl font-semibold">View Full Portfolio</span>
+          <TbExternalLink className="w-6 h-6" />
         </Link>
       </div>
+
     </section>
   );
 }

@@ -7,10 +7,10 @@ import { TbExternalLink } from "react-icons/tb";
 
 function About() {
   return (
-    <section id="about" className="px-8 bg-black text-white scroll-mt-24 pt-10 pb-20 border-b border-gray-700">
+    <section id="about" className="px-8 bg-black text-white scroll-mt-24 pt-10 pb-20 px-8 md:px-12 lg:px-16 border-b border-gray-700">
 
       {/* FIXED TWO-COLUMN LAYOUT */}
-      <div className="grid grid-cols-1 md:grid-cols-[300px_1fr] gap-4 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-[240px_1fr] lg:grid-cols-[300px_1fr] gap-4 items-center ">
 
         {/* Title */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight">
@@ -36,9 +36,9 @@ function About() {
       <div className="mt-10 text-center">
         <Link
           to="/about-full"
-          className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition"
+          className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 hover:underline transition"
         >
-          <span className="text-xl">Read Full Bio</span>
+          <span className="text-xl font-semibold">Read Full Bio</span>
           <TbExternalLink className="w-6 h-6" />
         </Link>
       </div>

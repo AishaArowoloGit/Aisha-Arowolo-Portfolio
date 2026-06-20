@@ -157,11 +157,11 @@ function AboutFull() {
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Associate Professor (Environmental and Welfare Economics)</h3>
-              <p className="text-gray-400 italic">
+              <p className="text-gray-400 md:text-md lg:text-lg italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-500 text-xs md:text-sm whitespace-nowrap">
+            <p className="text-gray-500 text-sm md:text-md lg:text-lg whitespace-nowrap">
               2025 – Present
             </p>
           </div>
@@ -169,11 +169,11 @@ function AboutFull() {
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Senior Lecturer</h3>
-              <p className="text-gray-400 italic">
+              <p className="text-gray-400 md:text-md lg:text-lg italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-500 text-xs md:text-sm whitespace-nowrap">
+            <p className="text-gray-500 text-sm md:text-md lg:text-lg whitespace-nowrap">
               2022 – 2025
             </p>
           </div>
@@ -181,11 +181,11 @@ function AboutFull() {
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Lecturer I</h3>
-              <p className="text-gray-400 italic">
+              <p className="text-gray-400 md:text-md lg:text-lg italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-500 text-sm whitespace-nowrap">
+            <p className="text-gray-500 text-sm md:text-md lg:text-lg whitespace-nowrap">
               2019 – 2022
             </p>
           </div>
@@ -193,11 +193,11 @@ function AboutFull() {
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Lecturer II</h3>
-              <p className="text-gray-400 italic">
+              <p className="text-gray-400 md:text-md lg:text-lg italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-500 text-sm whitespace-nowrap">
+            <p className="text-gray-500 text-sm md:text-md lg:text-lg whitespace-nowrap">
               2016 – 2019
             </p>
           </div>
@@ -205,11 +205,11 @@ function AboutFull() {
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Assistant Lecturer</h3>
-              <p className="text-gray-400 italic">
+              <p className="text-gray-400 md:text-md lg:text-lg italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-500 text-sm whitespace-nowrap">
+            <p className="text-gray-500 text-sm md:text-md lg:text-lg whitespace-nowrap">
               2012 – 2016
             </p>
           </div>
@@ -217,11 +217,11 @@ function AboutFull() {
           <div className="flex justify-between items-start border-b border-gray-700 mb-10">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Junior Research Fellow</h3>
-              <p className="text-gray-400 italic">
+              <p className="text-gray-400 md:text-md lg:text-lg italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-500 text-sm whitespace-nowrap">
+            <p className="text-gray-500 text-sm md:text-md lg:text-lg whitespace-nowrap">
               2010 – 2012
             </p>
           </div>

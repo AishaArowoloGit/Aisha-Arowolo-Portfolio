@@ -26,7 +26,7 @@ function Contact() {
     });
 
     if (response.ok) {
-      showPopup("success", "Message sent successfully!");
+      showPopup("success", "Message sent! Thank you for reaching out. I’ll be in touch shortly.");
       form.reset();
     } else {
       showPopup("error", "Something went wrong. Try again.");
@@ -34,7 +34,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 w-full overflow-x-hidden ">
+    <section id="contact" className="p-8 bg-black text-white scroll-mt-24 pt-10 pb-20 px-8 md:px-12 lg:px-16 w-full overflow-x-hidden ">
 
       {/* Popup Modal */}
       {popup && (
@@ -49,11 +49,11 @@ function Contact() {
       )}
       
         {/* Text/Social Links and Form Columns */}
-      <div className="grid md:grid-cols-3 gap-12 px-2">
+      <div className="grid md:grid-cols-3 gap-8 px-2">
 
         {/* Lets Connect Text and Social Links */}
         <div className="md:col-span-1 w-full">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-white leading-tight">
+          <h2 className="text-3xl md:text-[32px] lg:text-5xl font-semibold mb-4 text-white leading-tight">
             LET'S WORK TOGETHER
           </h2>
 

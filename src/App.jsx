@@ -7,21 +7,27 @@ import Portfolio from "./pages/Portfolio";
 import AboutFull from "./pages/AboutFull";
 
 
-function ScrollManager() {
-  const { pathname, hash } = useLocation();
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
+function ScrollToHash() {
+  const { hash } = useLocation();
 
   useEffect(() => {
     if (hash) {
       const el = document.querySelector(hash);
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
-        return;
       }
     }
-
-    // Default behavior
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [pathname, hash]);
+  }, [hash]);
 
   return null;
 }
@@ -29,8 +35,9 @@ function ScrollManager() {
 
 function App() {
   return (
-    <div className="font-poppins bg-black text-white min-h-screen overflow-x-hidden px-4 md:px-6 lg:px-12">
-      <ScrollManager />
+    <div className="font-poppins bg-black text-white min-h-screen overflow-x-hidden ">
+      <ScrollToTop />
+      <ScrollToHash />
 
       <Navbar />
 
