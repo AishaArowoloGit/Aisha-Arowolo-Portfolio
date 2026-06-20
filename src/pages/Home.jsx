@@ -8,7 +8,7 @@ import Contact from "../components/Contact";
 
 function Home() {
   return (
-    <div className="pt-20">
+    <div className="pt-20 pb-20">
       <Hero />
       <About />
       <Academic />

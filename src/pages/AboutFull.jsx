@@ -48,7 +48,7 @@ function AboutFull() {
             <img
               src={MyPhoto}
               alt="Aisha Arowolo"
-              className="w-[380px] h-[550px] object-cover rounded-xl border border-gray-600 shadow-[0_0_25px_rgba(0,255,150,0.35)] mb-12"
+              className="w-[380px] h-[550px] object-cover rounded-xl border border-gray-600 shadow-[0_0_25px_rgba(0,255,150,0.35)] sm:rotate-4 md:rotate-6 mb-12"
             /> 
           </div>
 
@@ -156,9 +156,9 @@ function AboutFull() {
         </h2>
 
         {/* Right - Experience list */}
-        <div className="space-y-8">
+        <div className="space-y-4">
 
-          <div className="flex justify-between items-start border-b border-gray-700">
+          <div className="flex justify-between items-start border-b border-gray-900">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Associate Professor (Environmental and Welfare Economics)</h3>
               <p className="text-gray-400 md:text-md lg:text-lg italic">
@@ -166,11 +166,11 @@ function AboutFull() {
               </p>
             </div>
             <p className="text-gray-500 text-sm md:text-md lg:text-lg whitespace-nowrap">
-              2025 – Present
+              2025 – present
             </p>
           </div>
 
-          <div className="flex justify-between items-start border-b border-gray-700">
+          <div className="flex justify-between items-start border-b border-gray-900">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Senior Lecturer</h3>
               <p className="text-gray-400 md:text-md lg:text-lg italic">
@@ -182,7 +182,7 @@ function AboutFull() {
             </p>
           </div>
 
-          <div className="flex justify-between items-start border-b border-gray-700">
+          <div className="flex justify-between items-start border-b border-gray-900">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Lecturer I</h3>
               <p className="text-gray-400 md:text-md lg:text-lg italic">
@@ -194,7 +194,7 @@ function AboutFull() {
             </p>
           </div>
 
-          <div className="flex justify-between items-start border-b border-gray-700">
+          <div className="flex justify-between items-start border-b border-gray-900">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Lecturer II</h3>
               <p className="text-gray-400 md:text-md lg:text-lg italic">
@@ -206,7 +206,7 @@ function AboutFull() {
             </p>
           </div>
 
-          <div className="flex justify-between items-start border-b border-gray-700">
+          <div className="flex justify-between items-start border-b border-gray-900">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Assistant Lecturer</h3>
               <p className="text-gray-400 md:text-md lg:text-lg italic">
@@ -218,7 +218,7 @@ function AboutFull() {
             </p>
           </div>
 
-          <div className="flex justify-between items-start border-b border-gray-700 mb-10">
+          <div className="flex justify-between items-start border-b border-gray-900 mb-10">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Junior Research Fellow</h3>
               <p className="text-gray-400 md:text-md lg:text-lg italic">

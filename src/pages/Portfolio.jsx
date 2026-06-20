@@ -13,7 +13,7 @@ function Portfolio() {
       description:
         "An interactive data visualization dashboard built using Power BI with dynamic filters, slicers, KPIs, and clean visual storytelling for data insights.",
       tech: ["Power BI", "Data Modeling", "DAX"],
-      link: "https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio/raw/master/data-analytics-projects/HTT DATA ANALYTICS STARTER GROUP 2 CAPSTONE PROJECT_Visualization_Part 1.pbix",
+      link: "https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio/blob/master/powerbi/HTT%20CAPSTONE%20PROJECT%20Visualization.pbix?raw=true",
       image: "Images/PowerBI_Dashboard.png",
     },
     {
