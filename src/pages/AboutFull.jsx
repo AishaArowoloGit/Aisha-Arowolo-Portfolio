@@ -60,24 +60,24 @@ function AboutFull() {
 
             {/* LEFT COLUMN — TITLE */}
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-center md:text-left">
-                MY CAPABILITIES AND SKILL SET
+                MY CAPABILITIES AND SKILLS SET
             </h2>
 
             {/* RIGHT COLUMN — SKILLS */}
             <div className="space-y-10">
 
-                {/* RESEARCH & METHODOLOGY */}
-                <div>
+              {/* RESEARCH & METHODOLOGY */}
+              <div>
                 <h3 className="text-xl font-semibold text-green-400 mb-2">
                     Research & Methodology
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
                     Designing rigorous studies, applying structured research frameworks, and analysing complex problems to uncover meaningful, actionable insights.
                 </p>
-                </div>
+              </div>
 
-                {/* DATA ANALYSIS */}
-                <div>
+              {/* DATA ANALYSIS */}
+              <div>
                 <h3 className="text-xl font-semibold text-green-400 mb-3">
                     Data Analysis, Modeling & Visualizations
                 </h3>
@@ -88,22 +88,20 @@ function AboutFull() {
 
                 {/* ICONS */}
                 <div className="flex flex-wrap gap-6">
-                    <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center">
                     <SiMysql className="text-blue-400 text-4xl" />
                     <p className="text-gray-400 text-sm mt-1">SQL</p>
-                    </div>
+                  </div>
 
-                    <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center">
                     <FaFileExcel className="text-green-500 text-4xl" />
                     <p className="text-gray-400 text-sm mt-1">Excel</p>
-                    </div>
+                  </div>
 
-                    <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center">
                     <TbChartBar className="text-yellow-500 text-4xl" />
                     <p className="text-gray-400 text-sm mt-1">Power BI</p>
-                    </div>
-    
-
+                  </div>
                 </div>
                 </div>
 
@@ -159,36 +157,36 @@ function AboutFull() {
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Associate Professor (Environmental and Welfare Economics)</h3>
-              <p className="text-gray-300 italic">
+              <p className="text-gray-400 italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-400 text-xs md:text-sm whitespace-nowrap">
-              October 2025 – Present
+            <p className="text-gray-500 text-xs md:text-sm whitespace-nowrap">
+              2025 – Present
             </p>
           </div>
 
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Senior Lecturer</h3>
-              <p className="text-gray-300 italic">
+              <p className="text-gray-400 italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-400 text-xs md:text-sm whitespace-nowrap">
-              October 2022 – September 2025
+            <p className="text-gray-500 text-xs md:text-sm whitespace-nowrap">
+              2022 – 2025
             </p>
           </div>
 
           <div className="flex justify-between items-start border-b border-gray-700">
             <div>
               <h3 className="text-xl font-semibold text-green-400">Lecturer I</h3>
-              <p className="text-gray-300 italic">
+              <p className="text-gray-400 italic">
                 Dept. of Agric. Econs and Farm Mgt., FUNAAB
               </p>
             </div>
-            <p className="text-gray-400 text-sm whitespace-nowrap">
-              October 2019 – September 2022
+            <p className="text-gray-500 text-sm whitespace-nowrap">
+              2019 – 2022
             </p>
           </div>
 
@@ -200,7 +198,7 @@ function AboutFull() {
               </p>
             </div>
             <p className="text-gray-500 text-sm whitespace-nowrap">
-              October 2016 – September 2019
+              2016 – 2019
             </p>
           </div>
 
@@ -212,7 +210,7 @@ function AboutFull() {
               </p>
             </div>
             <p className="text-gray-500 text-sm whitespace-nowrap">
-              October 2012 – September 2016
+              2012 – 2016
             </p>
           </div>
 
@@ -224,7 +222,7 @@ function AboutFull() {
               </p>
             </div>
             <p className="text-gray-500 text-sm whitespace-nowrap">
-              July 2010 – October 2012
+              2010 – 2012
             </p>
           </div>
 

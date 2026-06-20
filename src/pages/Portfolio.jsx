@@ -55,7 +55,7 @@ function Portfolio() {
 
   return (
     <section className="p-8 pt-20 bg-black text-white min-h-screen">
-      <h2 className="text-3xl font-semibold mb-6 text-green-700">My Portfolio</h2>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6">MY PORTFOLIO</h2>
       <p className="text-gray-300 mb-8">
         Below are selected projects demonstrating my expertise in data analysis, visualization,
         and frontend development. Each project reflects my commitment to clean design,

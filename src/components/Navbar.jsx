@@ -49,12 +49,6 @@ function Navbar() {
             Home
           </Link>
 
-          <Link to="/#about" className={linkClass("about")}>
-            About
-          </Link>
-
-          
-
           {/* PORTFOLIO */}
           <Link
             to="/portfolio"
@@ -72,6 +66,7 @@ function Navbar() {
             Contact
           </Link>
         </div>
+
 
         {/* Mobile Hamburger */}
         <div

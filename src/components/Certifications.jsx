@@ -36,7 +36,7 @@ function Certifications() {
   ];
 
   return (
-    <section id="certifications" className="pt-10 pb-20 bg-black text-white border-b border-gray-700">
+    <section id="certifications" className="pt-10 pb-20 bg-black text-white border-b border-gray-700 ">
       <div className=" mx-auto px-8">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-8">CERTIFICATIONS</h2>
 
@@ -45,9 +45,9 @@ function Certifications() {
           {certificates.map((cert, index) => (
             <div
               key={index}
-              className="bg-neutral-900 border border-gray-700 p-8 rounded-lg shadow-lg hover:shadow-xl transition"
+              className="bg-neutral-900 border border-gray-700 p-8 rounded-lg shadow-lg hover:border-green-500 transition"
             >
-              <h3 className="text-lg md:text-xl lg:text-2xl font-medium mb-2 text-green-300">{cert.title}</h3>
+              <h3 className="text-md md:text-lg lg:text-xl font-medium mb-2 text-green-300">{cert.title}</h3>
               <p className="text-base md:text-md lg:text-lg text-gray-300 mb-4">{cert.issuer}</p>
 
               <a

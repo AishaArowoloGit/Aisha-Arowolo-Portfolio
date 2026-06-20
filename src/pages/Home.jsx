@@ -12,15 +12,7 @@ function Home() {
       <Hero />
       <About />
       <Academic />
-      <Projects
-      image="/images/figma-project.jpg"
-      title="Figma UI Replication (HTT Mid‑Cohort Project)"
-      role="Frontend Developer"
-      year="2024"
-      description="A pixel‑perfect recreation of a Figma design using semantic HTML and TailwindCSS."
-      live="https://responsive-design-mid-cohort.vercel.app"
-      github="https://github.com/AishaArowoloGit/Responsive_Design_MidCohort"
-    />
+      <Projects />
       <Certifications />
       <Contact />
     </div>

@@ -174,7 +174,7 @@ function Projects() {
           </div>
 
           <a
-            href="https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio/raw/master/data-analytics-projects/HTT DATA ANALYTICS STARTER GROUP 2 CAPSTONE PROJECT_Visualization_Part 1.pbix"
+            href="https://github.com/AishaArowoloGit/Aisha-Arowolo-Portfolio/blob/master/powerbi/HTT%20CAPSTONE%20PROJECT%20Visualization.pbix?raw=true"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-green-700 text-white rounded-md hover:bg-green-800"

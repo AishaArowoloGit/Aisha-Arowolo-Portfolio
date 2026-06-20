@@ -31,6 +31,7 @@ function Hero() {
       
 
       {/* My Photo */}
+  
       <img src={MyPhotoImg} alt="Aisha Arowolo" className="w-60 h-60 md:w-80 md:h-80 lg:w-[420px] lg:h-[420px] xl:w-[480px] xl:h-[480px] object-contain shadow-lg rotate-6"/>
 
 

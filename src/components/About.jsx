@@ -12,27 +12,25 @@ function About() {
       {/* FIXED TWO-COLUMN LAYOUT */}
       <div className="grid grid-cols-1 md:grid-cols-[300px_1fr] gap-4 items-center">
 
-        {/* LEFT COLUMN — TITLE */}
+        {/* Title */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight">
           ABOUT ME
         </h2>
 
-        {/* RIGHT COLUMN — TEXT + SKILLS */}
+        {/* About me text */}
       
         <p className="text-base md:text-md lg:text-lg leading-relaxed text-gray-300 mb-4">
-          I am an Associate Professor of Environmental and Welfare Economics who enjoys turning complex ideas into clear, 
-          meaningful insights. My work blends research, data analysis, and front‑end development, from analysing datasets 
-          with Excel <FaFileExcel className="inline text-green-400 mx-1" />, Power BI <TbChartBar className="inline text-yellow-500 mx-1" />, 
-          and SQL <SiMysql className="inline text-blue-400 mx-1" /> to building intuitive, responsive web interfaces with HTML 
+          I am an Associate Professor of Environmental and Welfare Economics in the Department of Agricultural Economics 
+          and Farm Management, Federal University of Agriculture, Abeokuta (FUNAAB). I enjoy turning complex ideas into clear, 
+          meaningful insights. My work blends research, data analysis, and front‑end development, from conducting cutting-edge 
+          researches to analysing datasets with Excel <FaFileExcel className="inline text-green-400 mx-1" />, Power BI <TbChartBar className="inline text-yellow-500 mx-1" />, 
+          and SQL <SiMysql className="inline text-blue-400 mx-1" /> and building intuitive, responsive web interfaces with HTML 
           <FaHtml5 className="inline text-orange-500 mx-1" />, CSS <FaCss3Alt className="inline text-blue-500 mx-1" />, 
           JavaScript <FaJs className="inline text-yellow-400 mx-1" />, and React <FaReact className="inline text-blue-300 mx-1" />. 
           I’m passionate about clarity, user experience, and using technology to make information easier to understand and more impactful.  
-        </p>
-
-        
+        </p>  
 
       </div>
-
 
       {/* Full Bio Link */}
       <div className="mt-10 text-center">
