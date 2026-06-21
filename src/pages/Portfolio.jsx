@@ -5,8 +5,8 @@ function Portfolio() {
       description:
         "Agricultural production dataset cleaned and analyzed using Excel formulas, pivot tables, and charts.",
       tech: ["Excel", "Data Cleaning", "Visualization"],
-      link: "YOUR_EXCEL_GITHUB_LINK",
-      image: "/images/excel-analysis.jpg",
+      link: "",
+      image: "",
     },
     {
       title: "Power BI Dashboard",
@@ -21,8 +21,8 @@ function Portfolio() {
       description:
         "Automated data extraction and transformation for research datasets using SQL joins and subqueries.",
       tech: ["SQL", "Database Management", "ETL"],
-      link: "YOUR_SQL_GITHUB_LINK",
-      image: "/images/sql-automation.jpg",
+      link: "",
+      image: "",
     },
     {
       title: "Figma UI Replication (HTT Project)",
@@ -31,7 +31,7 @@ function Portfolio() {
       tech: ["HTML", "TailwindCSS", "Responsive Design"],
       live: "https://responsive-design-assignment.vercel.app/",
       code: "https://github.com/AishaArowoloGit/Responsive_Design_Assignment",
-      image: "public/Images/Figma_UI_Replication2.png",
+      image: "Images/Figma_UI_Replication2.png",
     },
     {
       title: "Figma UI Replication (HTT Mid‑Cohort Project)",
